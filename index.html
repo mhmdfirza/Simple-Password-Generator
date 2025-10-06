@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gekno Password</title>
+    <link rel="icon" href="/icons/password.ico" type="image/x-icon">  
+    <link rel="stylesheet" href="style.css">  
+    <script src="script.js"></script>
+</head>
+<body class="main">
+    <div class="container">
+        <h1>Password Generator</h1>
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" min="4" max="128" value="12">
+        
+        <label>
+            <input type="checkbox" id="includeUppercase" checked class="checkbox">
+            Include Uppercase Letters
+        </label>
+        
+        <label>
+            <input type="checkbox" id="includeLowercase" checked>
+            Include Lowercase Letters
+        </label>
+        
+        <label>
+            <input type="checkbox" id="includeNumbers" checked>
+            Include Numbers
+        </label>
+        
+        <label>
+            <input type="checkbox" id="includeSymbols">
+            Include Symbols
+        </label>
+        
+        <button id="generateBtn">Generate Password</button>
+        
+        <div id="result"></div>
+    </div>
+    <div class="copyright">
+        <h6>Copyright, mhmdfirza</h6>
+    </div>
+</body> 
+</html>
